@@ -1,0 +1,21 @@
+{
+  "website_url": "https://www.laxlimoservice.org/",
+  "support_email": "Kian@laxlimoservice.org",
+  "support_number": "+1(323)447-9677",
+  "company_address": "Los Angeles, USA",
+  "social_media_urls": {
+    "facebook": "#",
+    "twitter": "#",
+    "instagram": "https://www.instagram.com/Lax_limousine_service/",
+    "linkedin": "https://il.linkedin.com/company/wix-com?trk=public_jobs_topcard_logo"
+  },
+  "send_email_booking_to_name": "LAX LIMOUSINE SERVICE",
+  "send_email_contact_to_name": "LAX LIMOUSINE SERVICE",
+  "emailjs": {
+    "public_key": "e9wmdhrI5Md-AFfAk",
+    "service_id_booking": "service_1i10jo8",
+    "service_id_contact": "service_1i10jo8",
+    "template_id_booking": "template_krwdcig",
+    "template_id_contact": "template_krwdcig"
+  }
+}
