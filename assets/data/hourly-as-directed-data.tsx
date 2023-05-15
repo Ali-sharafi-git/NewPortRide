@@ -1,39 +1,34 @@
 const hourlyAsDirectedData: {
-    title: string;
-    image: string;
-    paragraphs: {
-        title?: string;
-        description?: string;
-        list?: string[];
-    }[];
+  title: string;
+  image: string;
+  paragraphs: {
+    title?: string;
+    description?: string;
+    list?: string[];
+  }[];
 } = {
-    title: 'HOURLY AS DIRECTED',
-    image: '/assets/images/hourly-as-directed.webp',
-    paragraphs: [
-        {
-            title: 'Hourly as Directed Service Chauffeur Service',
-            description: `The most convenient way to have a car and driver. The hourly car services are ideal for passengers
-                    needing private transportation. At LAX LIMOUSINE we give you the flexibility to truly personalize
-                    your luxury ground transportation experience. When you reserve an hourly car service, you are
-                    unrestricted to the amount of locations as you wish to go to and stop at, all you need to do is just
-                    give direction’s to any destination you need to go. Your driver will also wait for you to take you
-                    to your next stop. `,
-        },
-        {
-            title: 'Hourly As Directed rental is the best option if:',
-            list: [
-                'You need a car for more than 3 hours.',
-                'You need to make multiple stops.',
-                'You are not certain what time you will need a second or third pick up.',
-                'You would like to keep a driver and car for the entire trip.',
-                'You are going to Malibu for wine tasting.',
-                'You love the flexibility of an hourly rental.',
-                'You need a car for business meetings.',
-                'You need a car for special occasions such as wedding.',
-                'You need a pick up from the airport with several stops and then return to the airport.',
-            ],
-        },
-    ],
+  title: "HOURLY AS DIRECTED",
+  image: "/assets/images/hourly-as-directed.webp",
+  paragraphs: [
+    {
+      title: "Hourly as Directed Service Chauffeur Service",
+      description: `Looking for a convenient way to have a car and driver? Our Hourly as Directed Service Chauffeur Service is the perfect option for those seeking private transportation with ultimate flexibility. At LAX LIMOUSINE, we offer you the freedom to truly customize your luxury ground transportation experience. With our hourly car service, there are no restrictions on the number of locations you can travel to or stop at - simply provide directions to any destination you need to visit, and your driver will be there to take you. Plus, your driver will wait for you at each stop, ensuring you can easily move on to your next destination. `,
+    },
+    {
+      title: "Hourly As Directed rental is the best option if:",
+      list: [
+        "Need a car for more than 3 hours.",
+        "Need to make multiple stops.",
+        "Uncertain about second or third pick up times.",
+        "Want to keep a driver and car for the entire trip.",
+        "Going to Malibu for wine tasting",
+        "Love the flexibility of an hourly rental.",
+        "Need a car for business meetings.",
+        "Need a car for special occasions such as weddings.",
+        "Need a pick up from the airport with several stops and then return to the airport.",
+      ],
+    },
+  ],
 };
 
 export default hourlyAsDirectedData;

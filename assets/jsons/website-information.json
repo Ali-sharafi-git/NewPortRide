@@ -1,21 +1,22 @@
 {
-  "website_url": "https://www.laxlimoservice.org/",
-  "support_email": "Kian@laxlimoservice.org",
-  "support_number": "+1(323)447-9677",
-  "company_address": "Los Angeles, USA",
+  "website_url": "https://www.newportride.com",
+  "support_email": "info@newportride.com",
+  "support_number": "+1(949)3909800",
+  "support_number2": "+1(800)6848184",
+  "company_address": "2372 Morse Ave STE 493, Irvine, CA 92614",
   "social_media_urls": {
-    "facebook": "#",
-    "twitter": "#",
-    "instagram": "https://www.instagram.com/Lax_limousine_service/",
-    "linkedin": "https://il.linkedin.com/company/wix-com?trk=public_jobs_topcard_logo"
+    "facebook": "https://facebook.com",
+    "twitter": "https://twitter.com",
+    "instagram": "https://www.instagram.com/",
+    "linkedin": "https://linkedin.com/"
   },
-  "send_email_booking_to_name": "LAX LIMOUSINE SERVICE",
-  "send_email_contact_to_name": "LAX LIMOUSINE SERVICE",
+  "send_email_booking_to_name": "Newport Ride",
+  "send_email_contact_to_name": "Newport Ride",
   "emailjs": {
-    "public_key": "e9wmdhrI5Md-AFfAk",
-    "service_id_booking": "service_1i10jo8",
-    "service_id_contact": "service_1i10jo8",
-    "template_id_booking": "template_krwdcig",
-    "template_id_contact": "template_krwdcig"
+    "public_key": "6iozGAi7EPmHM1Cjg",
+    "service_id_booking": "service_eb9o78t",
+    "service_id_contact": "service_eb9o78t",
+    "template_id_booking": "template_7388y23",
+    "template_id_contact": "template_7388y23"
   }
 }
