@@ -20,16 +20,17 @@ const BookingForm = ({setStatus}: Props) => {
     });
 
     const handleSubmitButtonClick = (values: {
-        full_name: '',
-        email: '',
-        phone_number: '',
-        service_name: '',
-        from: '',
-        to: '',
-        date: '',
-        time: '',
-        car: '',
-        message: '',
+        full_name: string,
+        email: string,
+        phone_number: string,
+        service_name: string,
+        from: string,
+        greet: string,
+        to: string,
+        date: string,
+        time: string,
+        car: string,
+        message: string,
     }) => {
         setStatus('loading');
         emailjs.send(
@@ -38,7 +39,19 @@ const BookingForm = ({setStatus}: Props) => {
             {
                 to_name: websiteInformation.send_email_booking_to_name,
                 from_name: values.full_name,
-                message: `<div>
+                message: formik.values.service_name === t('airport_transfers') ? `<div>
+                        <p><strong>${t('your_name')}:</strong> ${values.full_name}</p>
+                        <p><strong>${t('email')}:</strong> ${values.email}</p>
+                        <p><strong>${t('phone')}:</strong> ${values.phone_number}</p>
+                        <p><strong>${t('service')}:</strong> ${values.service_name}</p>
+                        <p><strong>${t('meet_and_greet')}:</strong> ${values.greet !== '' ? t('yes') : t('no')}</p>
+                        <p><strong>${t('from')}:</strong> ${values.from}</p>
+                        <p><strong>${t('to')}:</strong> ${values.to}</p>
+                        <p><strong>${t('date')}:</strong> ${values.date}</p>
+                        <p><strong>${t('time')}:</strong> ${values.time}</p>
+                        <p><strong>${t('car')}:</strong> ${values.car}</p>
+                        <p><strong>${t('message')}:</strong> ${values.message}</p>
+                    </div>` : `<div>
                         <p><strong>${t('your_name')}:</strong> ${values.full_name}</p>
                         <p><strong>${t('email')}:</strong> ${values.email}</p>
                         <p><strong>${t('phone')}:</strong> ${values.phone_number}</p>
@@ -66,6 +79,7 @@ const BookingForm = ({setStatus}: Props) => {
             email: '',
             phone_number: '',
             service_name: '',
+            greet: '',
             from: '',
             to: '',
             date: '',
@@ -120,6 +134,9 @@ const BookingForm = ({setStatus}: Props) => {
                               label: t('corporate'),
                           },
                       ]}/>
+            {formik.values.service_name === t('airport_transfers') &&
+                <FormItem type="checkbox" name="greet" label={t('meet_and_greet')} formik={formik} showLabel={false}
+                          parentClassName="col-span-full" inputProps={{value: t('yes')}}/>}
             <FormItem type="input" name="from" label={t('from')} formik={formik} showLabel={false}/>
             <FormItem type="input" name="to" label={t('to')} formik={formik} showLabel={false}/>
             <FormItem type="datetime" name="date" label={t('pick_up_date')} formik={formik} showLabel={false}

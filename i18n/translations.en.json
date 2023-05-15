@@ -79,5 +79,8 @@
   "time": "Time",
   "car": "Car",
   "please_enter_your_email": "please enter your email",
-  "thanks_for_submitting": "Thanks for submitting!"
+  "thanks_for_submitting": "Thanks for submitting!",
+  "meet_and_greet": "Meet & Greet",
+  "yes": "yes",
+  "no": "no"
 }
