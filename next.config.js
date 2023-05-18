@@ -2,8 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   devIndicators: {
-    buildActivity: false
-  }
-}
+    buildActivity: false,
+  },
+  trailingSlash: true,
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

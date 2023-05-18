@@ -1,38 +1,30 @@
-import {ReactNode} from "react";
+import { ReactNode } from "react";
 
 const whatOurCustomerSaysData: {
-    image: string;
-    name: string;
-    comment: ReactNode;
+  image: string;
+  name: string;
+  comment: ReactNode;
 }[] = [
-    {
-        image: '/assets/images/customer1.jpg',
-        name: 'Mr. Johnson',
-        comment: `These guys are the best. They are my &quot;go to&quot; <strong>Lux
-                                    Limousine</strong> company and
-                                    their service is awesome. I call them no matter what my travel requirement might be,
-                                    airport, hospital, special event and they have never let me down. They go above and
-                                    beyond to provide excellent service. Thanks for everything.`,
-    },
-    {
-        image: '/assets/images/customer2.jpg',
-        name: 'Mrs. Sinha',
-        comment: `Traveling with Lux Limousine is truly a pleasure. Their drivers are
-                                    drive really well. I am very happy to travel in their car. If one wants to ride for
-                                    a
-                                    short distance then I would suggest you go for Lux Limousine. They will really give
-                                    you
-                                    a great write up and save you a lot of time.`,
-    },
-    {
-        image: '/assets/images/customer3.jpg',
-        name: 'Underson',
-        comment: `In one word, my traveling was very wonderful. I have never traveled
-                                    so
-                                    comfortably before. My sincere thanks to LAX LIMOUSINE COMPANY. Really awesome.
-                                    Highly
-                                    Recommended!`,
-    },
+  {
+    image: "/assets/images/customer1.jpg",
+    name: "Tom",
+    comment: `They provide excellent service. Whenever I need to travel, whether it be for an airport, hospital, or special occasion, I call them, and they have never let me down. For the purpose of offering superior service, they go above and beyond. I appreciate everything.
+
+        .`,
+  },
+  {
+    image: "/assets/images/customer2.jpg",
+    name: "Sara",
+    comment: `Newport Ride makes for a genuinely enjoyable ride. Their drivers operate their vehicles quite skillfully. I'm overjoyed to ride along in their car. I advise choosing Sedan if you only want to travel a small distance. They will really provide you with a fantastic write-up and help you save a ton of time.
+    `,
+  },
+  {
+    image: "/assets/images/customer3.jpg",
+    name: "Mike",
+    comment: `In a nutshell, my travels were fantastic. Never before have I traveled so comfortably. Thank you so much, Newport ride COMPANY. wonderful in a big way.
+    Highly Recommended!
+`,
+  },
 ];
 
 export default whatOurCustomerSaysData;

@@ -29,7 +29,7 @@ const TopMenu = () => {
         />
         <TopMenuLabelItem
           icon={<FaPhoneAlt color="#000" size={12} />}
-          text={websiteInformation.support_number}
+          text={websiteInformation.support_number2}
           href={`tel:${websiteInformation.support_number2}`}
         />
       </ul>

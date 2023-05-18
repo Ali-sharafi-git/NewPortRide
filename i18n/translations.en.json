@@ -1,6 +1,6 @@
 {
-  "title": "Newport Ride",
-  "lax_limousine_service": "Newport Ride",
+  "title": "Newport Luxury Ride",
+  "lax_limousine_service": "Newport Luxury Ride",
   "about_us_title": "ABOUT US",
   "about_us_section_title": "ABOUT US",
   "service_details": "SERVICE DETAILS",
@@ -80,7 +80,10 @@
   "car": "Car",
   "please_enter_your_email": "please enter your email",
   "thanks_for_submitting": "Thanks for submitting!",
-  "meet_and_greet": "Meet & Greet",
+  "meet_and_greet": "Meet & Greet (Extra 20$)",
   "yes": "yes",
-  "no": "no"
+  "no": "no",
+  "luxury_suv": "Luxury SUV",
+  "economy_suv": "Economy SUV",
+  "sedan": "Sedan"
 }
