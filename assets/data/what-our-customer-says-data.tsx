@@ -8,20 +8,20 @@ const whatOurCustomerSaysData: {
   {
     image: "/assets/images/customer1.jpg",
     name: "Tom",
-    comment: `They provide excellent service. Whenever I need to travel, whether it be for an airport, hospital, or special occasion, I call them, and they have never let me down. For the purpose of offering superior service, they go above and beyond. I appreciate everything.
+    comment: `Whenever I need to travel, whether it's to the airport, hospital, or a special occasion, I rely on their excellent service. They have never disappointed me, consistently providing superior service. They go above and beyond to ensure customer satisfaction, and I genuinely appreciate everything they do.
 
         .`,
   },
   {
     image: "/assets/images/customer2.jpg",
     name: "Sara",
-    comment: `Newport Ride makes for a genuinely enjoyable ride. Their drivers operate their vehicles quite skillfully. I'm overjoyed to ride along in their car. I advise choosing Sedan if you only want to travel a small distance. They will really provide you with a fantastic write-up and help you save a ton of time.
+    comment: `For a truly delightful journey, you can reach out to Newport Luxury Ride. Their skilled drivers and well-maintained vehicles ensure a smooth and enjoyable ride. I personally recommend choosing a sedan for your shorter distances. Even for shorter distances, they will provide you with an exceptional experience, helping you save valuable time.
     `,
   },
   {
     image: "/assets/images/customer3.jpg",
     name: "Mike",
-    comment: `In a nutshell, my travels were fantastic. Never before have I traveled so comfortably. Thank you so much, Newport ride COMPANY. wonderful in a big way.
+    comment: `In summary, my travel experiences with Newport Luxury Ride were absolutely fantastic. I have never experienced such comfort during my journeys before. I extend my heartfelt thanks to them for providing exceptional service. I highly recommend Newport Luxury Ride to anyone seeking an outstanding travel experience.
     Highly Recommended!
 `,
   },

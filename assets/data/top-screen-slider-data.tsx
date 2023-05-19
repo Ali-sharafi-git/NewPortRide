@@ -19,7 +19,7 @@ const topScreenSliderData: {
     title: "BOOK A LUXURY CAR",
     subtitle: "WELCOME",
     description:
-      "We can guarantee a secure and pleasant journey. Our skilled drivers operate our luxury vehicles. You can reserve a seat in any of our luxurious vehicles.",
+      "We assure you a secure and enjoyable journey with our highly skilled drivers who operate our fleet of luxurious vehicles. You have the option to reserve a seat in any of our exquisite vehicles.",
     buttons: [
       {
         text: "BOOK NOW",
@@ -40,7 +40,7 @@ const topScreenSliderData: {
     title: "COMFORTABLE TRAVEL",
     subtitle: "WELCOME",
     description:
-      "We can guarantee a secure and pleasant journey. Our skilled drivers operate our luxury vehicles. You can reserve a seat in any of our luxurious vehicles.",
+      "Providing premier transportation solutions since 2015, we specialize in delivering top-notch private chauffeurs, corporate travel services, group transportation, and much more. Our commitment to excellence has made us a trusted choice in the industry for first-class transportation experiences.",
     buttons: [
       {
         text: "BOOK NOW",
@@ -61,7 +61,7 @@ const topScreenSliderData: {
     title: "LUXURY TRAVELING",
     subtitle: "WELCOME",
     description:
-      "We can guarantee a secure and pleasant journey. Our skilled drivers operate our luxury vehicles. You can reserve a seat in any of our luxurious vehicles.",
+      "Whether you're traveling for business or pleasure, airport travel can either be a source of frustration or a truly relaxing experience. At Newport Luxury Ride, we understand the importance of hassle-free journeys. Say goodbye to worries about traffic, parking fees, or the security of your vehicle while you're away. Trust us to handle your airport transfer arrangements and enjoy a stress-free start or end to your trip.",
     buttons: [
       {
         text: "BOOK NOW",
